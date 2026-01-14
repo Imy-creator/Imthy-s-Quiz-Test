@@ -206,7 +206,7 @@ const questions = [
 
             if(currentQuestion >= (questions.length - 1)){
                 if (nextButton) nextButton.style.display = "none";
-                if (finishButton) finishButton.style.display = "inline-block";
+                if (finishButton) finishButton.style.display = "block";
             } else {
                 if (nextButton) nextButton.style.display = "block";
                 if (finishButton) finishButton.style.display = "none";
